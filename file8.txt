@@ -1,0 +1,77 @@
+    1  ls
+    2  ls -al
+    3  pwd
+    4  ls -al
+    5  ls
+    6  cd .
+    7  cd ..
+    8  cd ./
+    9  cd ds2002-jcs3qy
+   10  pwd
+   11  cd ..
+   12  cd ds2002-jcsqy
+   13  cd ds2002-jcs3qy
+   14  cd ...
+   15  clear
+   16  ..
+   17  ls ..
+   18  ls ./
+   19  cd ..
+   20  ls -al
+   21  cd ~
+   22  pwd
+   23  ls -al
+   24  clear
+   25  cd /workspaces/ds2002-jcs3qy
+   26  touch file1.txt
+   27  ls -al
+   28  touch file2.txt
+   29  touch file3.txt
+   30  echo "a man a plan a canal panama"
+   31  echo "a man a plan a canal panama" > file1.txt
+   32  cat file1.txt
+   33  cat file2.txt
+   34  cat file1.txt > file2.txt
+   35  cat file1.txt > file3.txt
+   36  cat file2.txt
+   37  cat file3.txt
+   38  echo "this should be a second line" >> file2.txt
+   39  cat file2.txt
+   40  clear
+   41  cat /dev/null > file3.txt
+   42  ls -al
+   43  mkdir fles
+   44  mv file1.txt files
+   45  cd files
+   46  ls
+   47  ls -al
+   48  cd ..
+   49  touch file.txt
+   50  touch file5.txt
+   51  touch file6.txt
+   52  ls
+   53  touch script.sh
+   54  mv file*.txt files
+   55  clear
+   56  rm file.txt
+   57  rm files/file.txt
+   58  cd files
+   59  touch file4.txt
+   60  cd ../
+   61  top
+   62  ps
+   63  ps aux > file6.txt
+   64  ps
+   65  head file6.txt
+   66  head -n 3 file6.txt
+   67  tail -n 2 file6.txt
+   68  clear
+   69  history
+   70  cat history >> file8.txt
+   71  ls
+   72  ps history > file8.txt
+   73  ps
+   74  history aux > file8.txt
+   75  cat file5.txt
+   76  history file8.txt
+   77  history > file8.txt
